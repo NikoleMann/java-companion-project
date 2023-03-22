@@ -37,7 +37,7 @@ class Game_Service_ImplTest {
 	
 	
 	@Autowired
-	private Game_Service gameServiceUnderTest;
+	private GameServiceImpl gameServiceUnderTest;
 	
 	private static Game testGame = createGame(1);
 	
