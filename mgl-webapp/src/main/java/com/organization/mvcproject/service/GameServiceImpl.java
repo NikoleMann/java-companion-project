@@ -1,15 +1,15 @@
-package com.organization.mvcproject.MGL_Task1.service;
+package com.organization.mvcproject.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.organization.mvcproject.MGL_Task1.model.Game;
+import com.organization.mvcproject.model.Game;
 
 
 @Service
-public class GameServiceImpl implements Game_Service {
+public class GameServiceImpl implements GameService {
 
 	/**
 	 * TODO 2.0 The class that interacts with persistent data is called a Data Access Object(DAO)
